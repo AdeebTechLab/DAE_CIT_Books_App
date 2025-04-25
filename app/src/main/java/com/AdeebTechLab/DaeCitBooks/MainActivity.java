@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://drive.google.com/file/d/1v0LuLqIBBi8oVwU8wTDHdWfUtBwQ5EF4/view?usp=drive_link";
+                String url = "https://drive.google.com/file/d/1v0LuLqIBBi8oVwU8wTDHdWfUtBwQ5EF4/view?usp=sharing";
                 Intent i = new Intent(MainActivity.this, web.class);
                 i.putExtra("url", url);
                 startActivity(i);
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://drive.google.com/file/d/1iaGxMndsVqh5JYQ2tR-jdY-04vaRSlka/view?usp=drive_link";
+                String url = "https://drive.google.com/file/d/1iaGxMndsVqh5JYQ2tR-jdY-04vaRSlka/view?usp=sharing";
                 Intent i = new Intent(MainActivity.this, web.class);
                 i.putExtra("url", url);
                 startActivity(i);
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://drive.google.com/file/d/10hm4xqf5eUfwKGwELMt0MtjX2b8arvk1/view?usp=drive_link";
+                String url = "https://drive.google.com/file/d/10hm4xqf5eUfwKGwELMt0MtjX2b8arvk1/view?usp=sharing";
                 Intent i = new Intent(MainActivity.this, web.class);
                 i.putExtra("url", url);
                 startActivity(i);
@@ -128,17 +128,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-
-
-
-
-
-
-
-
-
-
 
 
 

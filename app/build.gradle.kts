@@ -4,14 +4,14 @@ plugins {
 
 android {
     namespace = "com.AdeebTechLab.DaeCitBooks"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.AdeebTechLab.DaeCitBooks"
         minSdk = 24
-        targetSdk = 33
-        versionCode = 2
-        versionName = "0.2"
+        targetSdk = 34
+        versionCode = 5
+        versionName = "0.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
